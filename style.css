@@ -29,7 +29,6 @@ main {
 	align-items: center;
 	flex-direction: row;
 	margin-top: 40px;
-
 }
 
 .left {
@@ -161,6 +160,15 @@ main {
 .hidden {
 	display: none;
 }
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center;
+	margin-top: 50px;
+}
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}  
 
 @media(max-width: 768px){
 	main {
